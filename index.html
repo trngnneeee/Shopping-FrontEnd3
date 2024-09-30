@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src = "tailwind.config.js"></script>
+    <title>Project 3</title>
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="bg-primary py-[10px]">
+        <div class="container mx-auto">
+            <div class="flex items-center">
+                <div class="flex-1 text-white text-center text-[14px]">
+                    Đăng ký để được giảm giá 20%.
+                    <a href="#" class = "font-[500] underline">Đăng Ký Ngay</a>
+                </div>
+                <div class="text-white text-[14px] sm:block hidden">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Header -->
+
+    <!-- Header -->
+    <div class="header py-[24px]">
+        <div class="container mx-auto">
+            <div class="header__wrap flex gap-[40px] items-center sm:justify-none justify-between">
+                <a href="#" class = "md:hidden block">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <a class="header__logo font-[700] text-[32px] color-[secondary] md:flex-none flex-1">
+                    28.SHOP
+                </a>
+                <div class="header__menu lg:block hidden">
+                    <ul class = "flex gap-[24px] text-[16px] font-[400]">
+                        <li>
+                            <a href="#">Giới Thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#">Sản phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#">Bài Viết</a>
+                        </li>
+                        <li>
+                            <a href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <form action="" class = "header__search md:flex hidden items-center gap-[12px] rounded-[62px] bg-[#F0F0F0] px-[16px] flex-1 h-[48px]">
+                    <button type = "submit" class = "text-secondary">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Tìm kiếm sản phẩm..." class = "bg-transparent">
+                </form>
+
+                <div class = "header__button flex gap-[14px]">
+                    <a href="#" class = "md:hidden block">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping w-[24px]"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-circle-user"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Section1 -->
+    <div class="section1 bg-[#F2F0F1] pt-[45px]">
+        <div class="container mx-auto px-[16px]">
+            <div class="section1__wrap flex items-center gap-[50px] lg:flex-nowrap flex-wrap">
+                <div class="section1__content flex items-center lg:w-[52%] 100%">
+                    <div class="content__wrap">
+                        <h1 class = "font-[900] xl:text-[48px] sm:text-[38px] text-[28px] text-primary mb-[10px]">CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI</h1>
+                        <div class = "font-[400] sm:text-[16px] text-[14px] text-secondary sm:mb-[50px] mb-[20px]">Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong cách của bạn.</div>
+                        <div class="sm:mb-[50px] mb-[30px]">
+                            <a href = "#" class = "rounded-[62px] bg-primary text-[white] text-[16px] font-[500] py-[16px] px-[54px] lg:inline-block block text-center">Xem Ngay</a>
+                        </div>
+                        <div class = "flex sm:flex-nowrap flex-wrap">
+                            <div class = "pr-[32px] border-r border-[#0000001A] sm:mr-[32px] sm:w-none w-[50%] sm:text-left text-center">
+                                <div class = "font-[700] xl:text-[40px] sm:text-[32px] text-[24px] text-primary">200+</div>
+                                <div class = "xl:text-[16px] text-[12px] font-[400] text-secondary whitespace-nowrap">Thương Hiệu</div>
+                            </div> 
+                            <div class = "pr-[32px] border-r border-[#0000001A] sm:mr-[32px] sm:w-none w-[50%] sm:text-left text-center">
+                                <div  class = "font-[700] xl:text-[40px] sm:text-[32px] text-[24px] text-primary">2,000+</div>
+                                <div class = "xl:text-[16px] text-[12px] font-[400] text-secondary whitespace-nowrap">Sản Phẩm Chất Lượng</div>
+                            </div>
+                            <div class = "w-[100%] sm:text-left text-center sm:mt-[0px] mt-[10px]">
+                                <div  class = "font-[700] xl:text-[40px] sm:text-[32px] text-[24px] text-primary">30,000+</div>
+                                <div class = "xl:text-[16px] text-[12px] font-[400] text-secondary whitespace-nowrap">Khách Hàng </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section1__image relative lg:w-[48%] 100%">
+                    <img src="assets/images/bg.png" alt="" class = "w-[100%] h-auto">
+                    <img src="assets/images/Vector.svg" alt="" class = "xl:w-[56px] w-[50px] absolute left-[20px] top-[30%]">
+                    <img src="assets/images/Vector.svg" alt="" class = "xl:w-[104px] w-[90px] absolute right-[0px] top-[15%]">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section1 -->
+
+
+</body>
+</html>
